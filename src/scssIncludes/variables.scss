@@ -1,0 +1,41 @@
+:root {
+  --apps-font-color: #020202;
+  --apps-background-color: rgba(255, 255, 255, 0.75);
+  --apps-header-background-color: rgba(227, 227, 227, 0.8);
+
+  --tray-background-color: rgba(255, 255, 255, 0.1);
+  --tray-font-color: #101010;
+
+  --elevation-background-color: rgba(255, 255, 255, .1);
+
+  --apps-header-control-background: rgb(222, 222, 222);
+  --apps-header-control-background-hover: rgb(189, 189, 189);
+
+  --background-elevation-color-xs: rgba(0, 0, 0, .025);
+  --background-elevation-color-sm: rgba(0, 0, 0, .05);
+  --background-elevation-color: rgba(0, 0, 0, .1);
+  --background-elevation-color-lg: rgba(0, 0, 0, .2);
+  --background-elevation-color-xl: rgba(0, 0, 0, .3);
+  --background-elevation-color-2xl: rgba(0, 0, 0, .4);
+}
+
+:root[data-theme="dark"] {
+  --apps-font-color: #e5e5e5;
+  --apps-background-color: rgba(33, 33, 33, 0.8);
+  --apps-header-background-color: rgba(51, 51, 51);
+
+  --tray-background-color: rgba(0, 0, 0, 0.7);
+  --tray-font-color: #e7e7e7;
+
+  --elevation-background-color: rgba(0, 0, 0, .1);
+
+  --apps-header-control-background: rgb(77, 77, 77);
+  --apps-header-control-background-hover: rgb(93, 93, 93);
+
+  --background-elevation-color-xs: rgba(255, 255, 255, .025);
+  --background-elevation-color-sm: rgba(255, 255, 255, .05);
+  --background-elevation-color: rgba(255, 255, 255, .1);
+  --background-elevation-color-lg: rgba(255, 255, 255, .2);
+  --background-elevation-color-xl: rgba(255, 255, 255, .3);
+  --background-elevation-color-2xl: rgba(255, 255, 255, .4);
+}
